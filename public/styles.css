@@ -1,0 +1,61 @@
+/*  Universal styles  */ 
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+h1{
+  font-size: 50px;
+}
+
+/*  Home page styles */ 
+
+.index-h2s{
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.lists{
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+/*  Season page styles  */ 
+
+table, td, th{
+  border: 3px solid black;
+}
+
+td, th{
+  height: 50px;
+  padding: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+  width: 90%;
+}
+
+th{
+  font-size: 25px;
+}
+
+tr{
+  font-size: 20px;
+}
+
+.header-row{
+  background-color: cornflowerblue;
+  color: white;
+}
+
+
+.episode-number{
+  width: 40px;
+  text-align: center;
+}
+
+.season-title{
+  font-size: 40px;
+  text-align: center;
+}

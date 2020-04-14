@@ -1,0 +1,20 @@
+Html
+  include partials/head    
+
+  include partials/bodyTemplate
+      h2(class='index-h2s') Developed By
+      div
+        ul(class='lists')
+          for developer in showdata.developedBy
+            li=developer
+      h2(class='index-h2s') Starrring 
+      div 
+        ul(class='lists')  
+          for star in showdata.starring
+            li=star
+      h2(class='index-h2s') Seasons 
+      div 
+        ul(class='lists')  
+          for season in showdata.seasons
+            li
+              a(href=`/season/${season.number}`)= `Season ${season.number}`
